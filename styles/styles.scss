@@ -1,0 +1,52 @@
+
+html, body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#main__grid {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin: auto;
+}
+
+#main-content {
+    padding: 10%;
+}
+
+.ronald-img {
+    width: 30%;
+}
+.title-pic {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%;
+}
+
+.vert-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.nunisynth-pic-0 {
+    display:block;
+    width: 29%;
+    align-self: center;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 10px var(--bs-body-color);
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+
+    img {
+        height: 100%;
+    }
+}

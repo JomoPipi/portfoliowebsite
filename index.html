@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ronald Networking App</title>
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://bootswatch.com/5/vapor/bootstrap.css" rel="stylesheet" ></link>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+    
+</head>
+
+<body>
+    <div id="pages">
+        <div class="title-pic">
+            <img class="ronald-img" src="images/ronald.jpg">
+            <div class="flex-vert">
+                <h1>Ronald Corona</h1>
+                <h4>writes cool stuff</h4>
+            </div>
+        </div>
+        <div id="main-content">
+            <!-- <div id="main__grid"></div> -->
+            <h4> Summary </h4>
+                <p> I started learning to code at the end of 2017, and I like it. </p>
+            <h4> Coding Projects </h4>
+            <ul>
+                <li>
+                    <h4>NUNISYNTH </h4>
+                    <p>
+                        <a target="_blank" href="https://nunisynth.com">
+                        NUNISYNTH</a> is a <a target="_blank"
+                        href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)"
+                        >graphical</a> modular
+                        audio synthesizer based on the
+                        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+                        >Web Audio API</a>.
+                        Its original purpose was
+                        to facilitate exploring and experimenting with the API,
+                        but it evolved into something more.
+                        <img class="nunisynth-pic-0" src="https://nunisynth.com/static/media/allnodes.90720be2.png">
+                    
+                        <ul>
+                            <li>It's been through several iterations of UI refinements.
+                            Even though it gives you fine-grained audio control, it lets
+                            users create intricate things with relatively few steps.
+                            </li>
+                            <li>Auxiliary utilities (for example: scale builders, sample-generating formulas,
+                                visualizers, keyboarding, recording, importing, exporting, 
+                                keyboard shortcuts, saving, loading, and more) were added.
+                            </li>
+                            <li>
+                                A number of custom Web Audio nodes were added, including
+                                Automation, Sample Sequencer, Gate Sequencer, Sample Piano Roll,
+                                Mono Piano Roll, Recorder, Module.
+                            </li>
+                            <li>
+                                Modules play a big role. They are basically nested graphs.
+                                Users can save their own custom modules and reuse them in any project.
+                                A handful of helpful modules are provided by default.
+                            </li>
+                            <div class="flex-row">
+                                <img width=150 src="https://nunisynth.com/static/media/module.61ab40d9.png">
+                                <img width=200 src="https://nunisynth.com/static/media/nodes2.1b1eb89f.png">
+                                <img width=200 src="https://nunisynth.com/static/media/4nodes.5335159b.png">
+                            </div>
+                        </ul>
+                    </p>
+                </li>
+            </ul>
+
+            <h4> Contact </h4>
+            Ronaldmcorona@gmail.com
+            <br> <a target="_blank" href="https://github.com/JomoPipi"
+            >https://github.com/JomoPipi</a>
+        </div>
+    </div>
+</body>
+<!-- <script>
+    ;['about', 'coding projects', 'tutoring', 'contact', 'miscellaneous'].forEach(addButton)
+
+    function addButton(name) {
+        main__grid.appendChild(createButton(name, showSubPage(name)))
+    }
+
+    function createButton(name, onclick) {
+        const btn = E('button', { text: name, className: 'btn btn-outline-primary' })
+        btn.onclick = onclick
+        return btn
+    }
+
+    function showPage(name) {
+        return function onclick() {
+
+        }
+    }
+
+    function E(x, settings) {
+
+        const { text, className, children, props, is } = settings
+        const element = document.createElement(x, { is })
+        
+        element.innerText = text || ''
+
+        if (className)
+        {
+            for (const name of className.split(' ')) 
+            {
+                element.classList.add(name)
+            }
+        }
+        
+        if (children)
+        {
+            element.append(...children)
+        }
+        
+        Object.assign(element, props)
+
+        return element
+    }
+</script> -->
+</html>
